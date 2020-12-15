@@ -31,7 +31,7 @@ namespace TestsGeneratorLib
         {
             List<UsingDirectiveSyntax> defaultUsings = new List<UsingDirectiveSyntax>
             {
-                UsingDirective(QualifiedName(QualifiedName(QualifiedName(IdentifierName("Microsoft"),IdentifierName("VisualStudio")),IdentifierName("TestTools")),IdentifierName("InitTesting")))
+                UsingDirective(QualifiedName(QualifiedName(QualifiedName(IdentifierName("Microsoft"),IdentifierName("VisualStudio")),IdentifierName("TestTools")),IdentifierName("UnitTesting")))
             };
             return List(defaultUsings);
         }
